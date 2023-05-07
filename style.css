@@ -58,7 +58,7 @@
 }
 .car img {
   width: 100%;
-  animation: 1s linear infinite;
+  animation: car 1s linear infinite;
 }
 @keyframes car {
   100%{
@@ -77,11 +77,12 @@
   transform: translateX(-50%);
   position: absolute;
   z-index: 2;
-  animation: wheel 1s linear infinite;
+  
 }
 .wheel img{
   width: 72px;
   height: 72px;
+  animation: wheel 1s linear infinite;
 }
 .front-wheel{
   left: 80px;
